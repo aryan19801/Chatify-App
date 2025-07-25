@@ -7,11 +7,6 @@ services:
       npm run build --prefix frontend
       npm install --prefix backend
     startCommand: node backend/server.js
-    envVars:
-      - key: PORT
-        value: 10000
-      - key: MONGO_URI
-        value: your_mongo_connection_string
     buildFilter:
       paths:
         - frontend/**
