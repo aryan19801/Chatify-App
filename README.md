@@ -1,7 +1,10 @@
 🚀 Chatify - A Real-Time MERN Chat App 💬
-<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/fab7f8a4-119a-4fa6-9a9d-8815013b7c29" />
+
+
+<img width="1901" height="853" alt="Screenshot 2025-08-03 193350" src="https://github.com/user-attachments/assets/18e30855-1e57-4661-993d-fe764a1b42c1" />
 
 ✨ About
+
 Chatify is a dynamic, real-time chat web application built with the powerful MERN (MongoDB, Express, React, Node.js) stack. ⚡ It provides seamless, instant messaging capabilities by leveraging Socket.IO. 🤝 The app is designed to facilitate effortless communication with features for one-on-one private chats and group conversations, all within a modern and user-friendly interface.
 
 🌟 Key Features
@@ -22,7 +25,7 @@ Frontend:
 
 ⚛️ React
 
-🎨 Tailwind CSS (assumed, as this is a common pairing with MERN for modern UIs)
+🎨 Tailwind CSS 
 
 🌐 Socket.IO Client
 
@@ -42,16 +45,17 @@ Backend:
 
 🏁 Getting Started
 ✅ Prerequisites
-Before you begin, ensure you have the following installed on your system:
 
- Node.js (comes with npm) - Download here
+Before diving in, ensure you have the following installed on your system:
 
- MongoDB - A running instance or a cloud service like MongoDB Atlas
+  *  Node.js (comes with npm) - [Download here](https://nodejs.org/)
+  *  MongoDB - Have a local instance running or use a cloud service like [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
 ⚙️ Installation
 Clone the repository:
 
 git clone https://github.com/aryan19801/Chatify-App.git
+
 cd Chatify-App
 
 Configure Environment Variables:
@@ -61,7 +65,9 @@ Navigate to the server directory and create a .env file.
 Populate it with your database connection string and a secret key for JWT:
 
 MONGO_URI=your_mongodb_connection_string_here
+
 PORT=5000
+
 JWT_SECRET=a_very_long_and_secure_secret_key
 
 Install Dependencies:
@@ -82,7 +88,7 @@ npm run dev --prefix ../server
 # Start the React app
 npm start
 
-Your Chatify app should now be live at http://localhost:! 🎉
+Your Chatify app should now be live at http://localhost:5001 🎉
 
 🚀 Deployment
 Chatify is proudly hosted live on Render! ☁️ To deploy your own instance, follow these straightforward steps:
